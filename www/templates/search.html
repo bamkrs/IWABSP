@@ -1,0 +1,9 @@
+<h2>Suche</h2>
+<input type="text" ng-model="searchText"></input>
+<button ng-click="searchTracks()">Suche</button>
+
+<div ng-repeat="track in foundTracks">
+	<img src="{{track.album.images[0].url}}" width="300" height="300"><br>
+	<span>{{track.name}}</span> - 
+	<span>{{track.artists[0].name}}</span>
+</div>

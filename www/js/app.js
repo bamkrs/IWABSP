@@ -16,5 +16,10 @@ angular.module('IWABSP', ['ui.router', 'app.controllers', 'app.directives', 'app
       url: "/about",									//link zu view
       templateUrl: "templates/about.html",				//zugehöriges template
       controller: "aboutCtl"							//zugehöriger controller
+    })
+    .state('search', {                   //name für view /about
+      url: "/search",                  //link zu view
+      templateUrl: "templates/search.html",        //zugehöriges template
+      controller: "searchCtl"              //zugehöriger controller
     });
 });
