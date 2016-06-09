@@ -1,0 +1,24 @@
+{
+  "name": "IWABSP",
+  "version": "0.0.1",
+  "authors": [
+    "Benedikt-Alexander Mokroß <lehre@bhorn.de>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.5.6",
+    "bootstrap": "latest",
+    "jquery": "latest",
+    "underscore": "latest",
+    "angular-ui-router": "latest"
+  },
+  "private": true
+}

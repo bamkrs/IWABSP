@@ -1,0 +1,37 @@
+<!doctype html>
+<html ng-app="IWABSP">
+<head>
+	<!-- angular -->
+    <script src="lib/angular/angular.min.js"></script>
+    
+    <!-- erweiterungen -->
+    <script src="lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+    <!-- submodule -->
+    <script src="js/sub.js"></script>    
+
+    <!-- controller -->
+    <script src="js/controllers/startCtl.js"></script>
+    <script src="js/controllers/aboutCtl.js"></script>
+
+    <!-- directives -->
+
+    <!-- services -->
+
+    <!-- core -->
+    <script src="js/app.js"></script>
+
+    <!-- head -->
+    <title>IWABSP</title>
+</head>
+<body>
+<!-- Kleine rudimentäre Navigation -->
+<nav>
+	<a ui-sref="start">Start</a> | 
+	<a ui-sref="about">Informationen</a>
+</nav>
+<hr>
+<!-- inhalt der einzelnen views -->
+<div ui-view></div>
+</body>
+</html>
