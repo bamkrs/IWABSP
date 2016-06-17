@@ -1,0 +1,1 @@
+angular.module("app.controllers").controller("startCtl",function(o,t){console.log("StartCtl wurde gestartet."),o.position="Unknown",navigator.geolocation&&navigator.geolocation.getCurrentPosition(function(t){o.position=t})});
